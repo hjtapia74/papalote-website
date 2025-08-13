@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "services": "Services",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Elevate Your Business with Advanced Data Analytics and AI Solutions",
+    "subtitle": "Transforming growing businesses with Cutting-Edge Technology and Exceptional User Experience",
+    "cta": "Get Started Today"
+  },
+  "experience": {
+    "title": "OUR EXPERIENCE"
+  },
+  "services": {
+    "title": "Our services",
+    "description": "At Papalote Technologies, we empower small and medium enterprises to soar to new heights with the same advanced data analytics and AI technologies used by leading corporations. Our comprehensive suite of services is designed to transform your business operations and drive sustainable growth.",
+    "analytics": {
+      "title": "Advanced analytics & AI",
+      "description": "We've been pioneering Machine Learning & AI long before it was a buzzword. Our expertise spans the entire spectrum from predictive analytics to deep learning, ensuring your business stays ahead of the curve with intelligent, data-driven insights."
+    },
+    "architecture": {
+      "title": "Systems Architecture",
+      "description": "Our Collaborative Enterprise Architecture seamlessly integrates Business, IT, and Data strategies. We design robust, scalable systems that align with your business objectives and support long-term growth."
+    },
+    "cloud": {
+      "title": "Cloud migration",
+      "description": "A comprehensive and proven cloud migration program that minimizes risk while maximizing the benefits of cloud adoption. We ensure smooth transitions with minimal downtime and optimal cost efficiency."
+    },
+    "consulting": {
+      "title": "Technology consulting",
+      "description": "We blend human-centered design with cutting-edge engineering to create solutions that not only meet technical requirements but also provide exceptional user experiences and drive business value."
+    },
+    "database": {
+      "title": "Database evaluation & migration",
+      "description": "We assist companies in evaluating and selecting the most suitable database technologies for their specific needs, followed by seamless migration strategies that ensure data integrity and improved performance."
+    },
+    "managed": {
+      "title": "Managed Services",
+      "description": "Managing cloud deployments can be an enormous challenge. Our managed services ensure your infrastructure runs smoothly, allowing you to focus on your core business while we handle the technical complexities."
+    }
+  },
+  "location": {
+    "title": "Our Location",
+    "description": "Based in the heart of Seattle's thriving tech ecosystem, we're perfectly positioned to serve businesses across the Pacific Northwest and beyond.",
+    "city": "Seattle, WA, USA",
+    "videoPlaceholder": "Video placeholder - Replace with your Seattle location video",
+    "videoSpecs": "Recommended: MP4 format, 16:9 aspect ratio",
+    "serving": "Serving clients across the Pacific Northwest and nationwide"
+  },
+  "cta": {
+    "title": "Ready to elevate your business with cutting-edge technology solutions?",
+    "description": "Contact Papalote Technologies today and let us help you soar to new heights!",
+    "button": "Get In Touch"
+  },
+  "contact": {
+    "title": "Contact Information",
+    "about": "About Papalote Technologies",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "followUs": "Follow Us",
+    "description1": "We specialize in transforming growing businesses with advanced data analytics, AI solutions, and cutting-edge technology. Our team brings enterprise-level capabilities to small and medium enterprises, helping them compete and thrive in today's data-driven marketplace.",
+    "description2": "Based in Seattle's vibrant tech ecosystem, we serve clients across the Pacific Northwest and beyond, delivering innovative solutions that drive real business value."
+  },
+  "language": {
+    "toggle": "Language",
+    "english": "English",
+    "spanish": "Español"
+  }
+}

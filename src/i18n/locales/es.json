@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "experience": "Experiencia",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Eleve Su Negocio con Soluciones Avanzadas de Análisis de Datos e IA",
+    "subtitle": "Transformando empresas en crecimiento con Tecnología de Vanguardia y Experiencia de Usuario Excepcional",
+    "cta": "Comience Hoy"
+  },
+  "experience": {
+    "title": "NUESTRA EXPERIENCIA"
+  },
+  "services": {
+    "title": "Nuestros servicios",
+    "description": "En Papalote Technologies, empoderamos a las pequeñas y medianas empresas para que alcancen nuevas alturas con las mismas tecnologías avanzadas de análisis de datos e IA utilizadas por las corporaciones líderes. Nuestra suite integral de servicios está diseñada para transformar las operaciones de su negocio e impulsar un crecimiento sostenible.",
+    "analytics": {
+      "title": "Análisis avanzado e IA",
+      "description": "Hemos sido pioneros en el Aprendizaje Automático e IA mucho antes de que fuera una palabra de moda. Nuestra experiencia abarca todo el espectro desde análisis predictivo hasta aprendizaje profundo, asegurando que su negocio se mantenga a la vanguardia con insights inteligentes basados en datos."
+    },
+    "architecture": {
+      "title": "Arquitectura de Sistemas",
+      "description": "Nuestra Arquitectura Empresarial Colaborativa integra perfectamente las estrategias de Negocio, TI y Datos. Diseñamos sistemas robustos y escalables que se alinean con sus objetivos comerciales y apoyan el crecimiento a largo plazo."
+    },
+    "cloud": {
+      "title": "Migración a la nube",
+      "description": "Un programa integral y probado de migración a la nube que minimiza el riesgo mientras maximiza los beneficios de la adopción de la nube. Aseguramos transiciones suaves con tiempo de inactividad mínimo y eficiencia de costos óptima."
+    },
+    "consulting": {
+      "title": "Consultoría tecnológica",
+      "description": "Combinamos el diseño centrado en el ser humano con ingeniería de vanguardia para crear soluciones que no solo cumplan con los requisitos técnicos, sino que también proporcionen experiencias de usuario excepcionales e impulsen valor comercial."
+    },
+    "database": {
+      "title": "Evaluación y migración de bases de datos",
+      "description": "Ayudamos a las empresas a evaluar y seleccionar las tecnologías de bases de datos más adecuadas para sus necesidades específicas, seguido de estrategias de migración sin problemas que aseguran la integridad de los datos y un rendimiento mejorado."
+    },
+    "managed": {
+      "title": "Servicios Gestionados",
+      "description": "Gestionar implementaciones en la nube puede ser un desafío enorme. Nuestros servicios gestionados aseguran que su infraestructura funcione sin problemas, permitiéndole enfocarse en su negocio principal mientras nosotros manejamos las complejidades técnicas."
+    }
+  },
+  "location": {
+    "title": "Nuestra Ubicación",
+    "description": "Ubicados en el corazón del próspero ecosistema tecnológico de Seattle, estamos perfectamente posicionados para servir a empresas en todo el Noroeste del Pacífico y más allá.",
+    "city": "Seattle, WA, Estados Unidos",
+    "videoPlaceholder": "Video provisional - Reemplace con su video de ubicación de Seattle",
+    "videoSpecs": "Recomendado: formato MP4, relación de aspecto 16:9",
+    "serving": "Sirviendo clientes en todo el Noroeste del Pacífico y a nivel nacional"
+  },
+  "cta": {
+    "title": "¿Listo para elevar su negocio con soluciones tecnológicas de vanguardia?",
+    "description": "¡Contacte a Papalote Technologies hoy y permítanos ayudarle a alcanzar nuevas alturas!",
+    "button": "Póngase en Contacto"
+  },
+  "contact": {
+    "title": "Información de Contacto",
+    "about": "Acerca de Papalote Technologies",
+    "address": "Dirección",
+    "phone": "Teléfono",
+    "email": "Correo electrónico",
+    "followUs": "Síguenos",
+    "description1": "Nos especializamos en transformar empresas en crecimiento con análisis de datos avanzados, soluciones de IA y tecnología de vanguardia. Nuestro equipo aporta capacidades de nivel empresarial a pequeñas y medianas empresas, ayudándolas a competir y prosperar en el mercado actual impulsado por datos.",
+    "description2": "Ubicados en el vibrante ecosistema tecnológico de Seattle, servimos a clientes en todo el Noroeste del Pacífico y más allá, entregando soluciones innovadoras que impulsan valor comercial real."
+  },
+  "language": {
+    "toggle": "Idioma",
+    "english": "English",
+    "spanish": "Español"
+  }
+}
