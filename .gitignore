@@ -25,3 +25,7 @@ dist-ssr
 
 # Local development scripts (not needed for AWS Amplify)
 start-dev.sh
+
+# Backup files
+*.bak
+*.bak.*
