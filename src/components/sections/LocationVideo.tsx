@@ -7,24 +7,30 @@ import {
   AspectRatio,
 } from '@chakra-ui/react'
 import { useTranslation } from 'react-i18next'
+import { useColorModeValue } from '@/components/ui/color-mode'
 
 const LocationVideo = () => {
   const { t } = useTranslation()
+  const bgColor = useColorModeValue('gray.50', 'gray.900')
+  const headingColor = useColorModeValue('gray.800', 'white')
+  const textColor = useColorModeValue('gray.600', 'gray.300')
+  const cityColor = useColorModeValue('gray.700', 'gray.200')
+
   return (
-    <Box py={20} bg="gray.50">
+    <Box py={20} bg={bgColor}>
       <Container maxW="6xl">
         <VStack gap={12}>
           <VStack gap={6} textAlign="center">
             <Heading
               fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-              color="gray.800"
+              color={headingColor}
               fontWeight="bold"
             >
               {t('location.title')}
             </Heading>
             <Text
               fontSize={{ base: 'lg', md: 'xl' }}
-              color="gray.600"
+              color={textColor}
               maxW="2xl"
             >
               {t('location.description')}
@@ -78,10 +84,10 @@ const LocationVideo = () => {
 
           {/* Location Info */}
           <VStack gap={4} textAlign="center">
-            <Text fontSize="lg" color="gray.700" fontWeight="medium">
+            <Text fontSize="lg" color={cityColor} fontWeight="medium">
               {t('location.city')}
             </Text>
-            <Text color="gray.600">
+            <Text color={textColor}>
               {t('location.serving')}
             </Text>
           </VStack>

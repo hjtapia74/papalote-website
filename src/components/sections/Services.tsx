@@ -10,6 +10,7 @@ import {
 } from '@chakra-ui/react'
 import { useTranslation } from 'react-i18next'
 import { useOffering } from '@/context/OfferingContext'
+import { useColorModeValue } from '@/components/ui/color-mode'
 
 interface ServiceItem {
   title: string
@@ -29,22 +30,28 @@ const Services = () => {
   const offerings = t('services.offerings', { returnObjects: true }) as ServiceOffering[]
   const currentOffering = offerings[activeOffering] || offerings[0]
 
+  const bgColor = useColorModeValue('white', 'gray.900')
+  const headingColor = useColorModeValue('gray.800', 'white')
+  const textColor = useColorModeValue('gray.600', 'gray.300')
+  const borderColor = useColorModeValue('gray.200', 'gray.700')
+  const cardBg = useColorModeValue('white', 'gray.800')
+
   return (
-    <Box id="services" py={20} bg="white">
+    <Box id="services" py={20} bg={bgColor}>
       <Container maxW="6xl">
         <VStack gap={16}>
           {/* Section Header */}
           <VStack gap={6} textAlign="center" maxW="4xl">
             <Heading
               fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
-              color="gray.800"
+              color={headingColor}
               fontWeight="bold"
             >
               {currentOffering.title}
             </Heading>
             <Text
               fontSize={{ base: 'lg', md: 'xl' }}
-              color="gray.600"
+              color={textColor}
               lineHeight="tall"
             >
               {currentOffering.description}
@@ -61,13 +68,14 @@ const Services = () => {
               <Card.Root
                 key={`${activeOffering}-${index}`}
                 h="100%"
+                bg={cardBg}
                 _hover={{
                   transform: 'translateY(-4px)',
                   boxShadow: 'xl',
                 }}
                 transition="all 0.3s"
                 border="1px"
-                borderColor="gray.200"
+                borderColor={borderColor}
               >
                 <Card.Body p={8}>
                   <VStack gap={6} align="start" h="100%">
@@ -81,14 +89,14 @@ const Services = () => {
 
                     <Heading
                       fontSize="xl"
-                      color="gray.800"
+                      color={headingColor}
                       fontWeight="bold"
                     >
                       {service.title}
                     </Heading>
 
                     <Text
-                      color="gray.600"
+                      color={textColor}
                       lineHeight="tall"
                       flex="1"
                     >

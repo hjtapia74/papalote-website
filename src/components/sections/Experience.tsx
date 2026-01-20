@@ -7,9 +7,12 @@ import {
   VStack,
 } from '@chakra-ui/react'
 import { useTranslation } from 'react-i18next'
+import { useColorModeValue } from '@/components/ui/color-mode'
 
 const Experience = () => {
   const { t } = useTranslation()
+  const bgColor = useColorModeValue('gray.50', 'gray.900')
+  const headingColor = useColorModeValue('gray.800', 'white')
   const technologies = [
     {
       name: 'AWS',
@@ -38,13 +41,13 @@ const Experience = () => {
   ]
 
   return (
-    <Box id="experience" py={20} bg="gray.50">
+    <Box id="experience" py={20} bg={bgColor}>
       <Container maxW="6xl">
         <VStack gap={12}>
           <Heading
             fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
             textAlign="center"
-            color="gray.800"
+            color={headingColor}
             fontWeight="bold"
             letterSpacing="wide"
           >
