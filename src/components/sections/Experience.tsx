@@ -40,7 +40,7 @@ const Experience = () => {
   return (
     <Box id="experience" py={20} bg="gray.50">
       <Container maxW="6xl">
-        <VStack spacing={12}>
+        <VStack gap={12}>
           <Heading
             fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
             textAlign="center"
@@ -53,7 +53,7 @@ const Experience = () => {
 
           <SimpleGrid
             columns={{ base: 2, md: 3, lg: 6 }}
-            spacing={8}
+            gap={8}
             w="100%"
           >
             {technologies.map((tech, index) => (

@@ -5,40 +5,84 @@
     "contact": "Contacto"
   },
   "hero": {
-    "title": "Eleve Su Negocio con Soluciones Avanzadas de Análisis de Datos e IA",
-    "subtitle": "Transformando empresas en crecimiento con Tecnología de Vanguardia y Experiencia de Usuario Excepcional",
-    "cta": "Comience Hoy"
+    "cta": "Comience Hoy",
+    "slides": [
+      {
+        "title": "Eleve Su Negocio con Soluciones Avanzadas de Análisis de Datos e IA",
+        "subtitle": "Transformando empresas en crecimiento con Tecnología de Vanguardia y Experiencia de Usuario Excepcional"
+      },
+      {
+        "title": "Optimice Sus Contratos con Gestión del Ciclo de Vida de Contratos Impulsada por IA",
+        "subtitle": "Automatice la creación, negociación y cumplimiento de contratos con soluciones inteligentes de IA"
+      }
+    ]
   },
   "experience": {
     "title": "NUESTRA EXPERIENCIA"
   },
   "services": {
-    "title": "Nuestros servicios",
-    "description": "En Papalote Technologies, empoderamos a las pequeñas y medianas empresas para que alcancen nuevas alturas con las mismas tecnologías avanzadas de análisis de datos e IA utilizadas por las corporaciones líderes. Nuestra suite integral de servicios está diseñada para transformar las operaciones de su negocio e impulsar un crecimiento sostenible.",
-    "analytics": {
-      "title": "Análisis avanzado e IA",
-      "description": "Hemos sido pioneros en el Aprendizaje Automático e IA mucho antes de que fuera una palabra de moda. Nuestra experiencia abarca todo el espectro desde análisis predictivo hasta aprendizaje profundo, asegurando que su negocio se mantenga a la vanguardia con insights inteligentes basados en datos."
-    },
-    "architecture": {
-      "title": "Arquitectura de Sistemas",
-      "description": "Nuestra Arquitectura Empresarial Colaborativa integra perfectamente las estrategias de Negocio, TI y Datos. Diseñamos sistemas robustos y escalables que se alinean con sus objetivos comerciales y apoyan el crecimiento a largo plazo."
-    },
-    "cloud": {
-      "title": "Migración a la nube",
-      "description": "Un programa integral y probado de migración a la nube que minimiza el riesgo mientras maximiza los beneficios de la adopción de la nube. Aseguramos transiciones suaves con tiempo de inactividad mínimo y eficiencia de costos óptima."
-    },
-    "consulting": {
-      "title": "Consultoría tecnológica",
-      "description": "Combinamos el diseño centrado en el ser humano con ingeniería de vanguardia para crear soluciones que no solo cumplan con los requisitos técnicos, sino que también proporcionen experiencias de usuario excepcionales e impulsen valor comercial."
-    },
-    "database": {
-      "title": "Evaluación y migración de bases de datos",
-      "description": "Ayudamos a las empresas a evaluar y seleccionar las tecnologías de bases de datos más adecuadas para sus necesidades específicas, seguido de estrategias de migración sin problemas que aseguran la integridad de los datos y un rendimiento mejorado."
-    },
-    "managed": {
-      "title": "Servicios Gestionados",
-      "description": "Gestionar implementaciones en la nube puede ser un desafío enorme. Nuestros servicios gestionados aseguran que su infraestructura funcione sin problemas, permitiéndole enfocarse en su negocio principal mientras nosotros manejamos las complejidades técnicas."
-    }
+    "offerings": [
+      {
+        "title": "Nuestros servicios",
+        "description": "En Papalote Technologies, empoderamos a las pequeñas y medianas empresas para que alcancen nuevas alturas con las mismas tecnologías avanzadas de análisis de datos e IA utilizadas por las corporaciones líderes. Nuestra suite integral de servicios está diseñada para transformar las operaciones de su negocio e impulsar un crecimiento sostenible.",
+        "items": [
+          {
+            "title": "Análisis avanzado e IA",
+            "description": "Hemos sido pioneros en el Aprendizaje Automático e IA mucho antes de que fuera una palabra de moda. Nuestra experiencia abarca todo el espectro desde análisis predictivo hasta aprendizaje profundo, asegurando que su negocio se mantenga a la vanguardia con insights inteligentes basados en datos."
+          },
+          {
+            "title": "Arquitectura de Sistemas",
+            "description": "Nuestra Arquitectura Empresarial Colaborativa integra perfectamente las estrategias de Negocio, TI y Datos. Diseñamos sistemas robustos y escalables que se alinean con sus objetivos comerciales y apoyan el crecimiento a largo plazo."
+          },
+          {
+            "title": "Migración a la nube",
+            "description": "Un programa integral y probado de migración a la nube que minimiza el riesgo mientras maximiza los beneficios de la adopción de la nube. Aseguramos transiciones suaves con tiempo de inactividad mínimo y eficiencia de costos óptima."
+          },
+          {
+            "title": "Consultoría tecnológica",
+            "description": "Combinamos el diseño centrado en el ser humano con ingeniería de vanguardia para crear soluciones que no solo cumplan con los requisitos técnicos, sino que también proporcionen experiencias de usuario excepcionales e impulsen valor comercial."
+          },
+          {
+            "title": "Evaluación y migración de bases de datos",
+            "description": "Ayudamos a las empresas a evaluar y seleccionar las tecnologías de bases de datos más adecuadas para sus necesidades específicas, seguido de estrategias de migración sin problemas que aseguran la integridad de los datos y un rendimiento mejorado."
+          },
+          {
+            "title": "Servicios Gestionados",
+            "description": "Gestionar implementaciones en la nube puede ser un desafío enorme. Nuestros servicios gestionados aseguran que su infraestructura funcione sin problemas, permitiéndole enfocarse en su negocio principal mientras nosotros manejamos las complejidades técnicas."
+          }
+        ]
+      },
+      {
+        "title": "Servicios de Gestión del Ciclo de Vida de Contratos",
+        "description": "Revolucione la forma en que su organización gestiona los contratos con nuestras soluciones de Gestión del Ciclo de Vida de Contratos impulsadas por IA. Desde la creación hasta la renovación, optimizamos cada fase de sus procesos contractuales.",
+        "items": [
+          {
+            "title": "Implementación de CLM",
+            "description": "Despliegue su plataforma CLM con confianza. Desde la configuración hasta el lanzamiento, aseguramos una implementación fluida que impulsa la adopción de usuarios desde el primer día."
+          },
+          {
+            "title": "Evaluación de CLM",
+            "description": "Acelere su viaje CLM con una evaluación de preparación personalizada. Optimice plantillas, bibliotecas de cláusulas y flujos de trabajo para reducir riesgos y acelerar el ROI."
+          },
+          {
+            "title": "Consultoría Legal",
+            "description": "Cierre la brecha entre la estrategia legal y la tecnología. Nuestros consultores alinean los procesos contractuales con los requisitos de cumplimiento y los objetivos comerciales."
+          },
+          {
+            "title": "Servicios Gestionados",
+            "description": "Mantenga su CLM funcionando al máximo rendimiento. Nos encargamos del mantenimiento del sistema, actualizaciones y soporte para que su equipo pueda enfocarse en prioridades estratégicas."
+          },
+          {
+            "title": "Migración y Extracción de Datos",
+            "description": "Ya sea que tenga 100 o 100,000 contratos, nuestro enfoque impulsado por IA combinado con revisión experta garantiza una migración precisa y eficiente en todo momento."
+          },
+          {
+            "title": "Servicios de Integración",
+            "description": "Conecte su CLM a sistemas ERP, CRM y de negocio principales. Asegure que los datos de contratos fluyan sin problemas en toda su organización."
+          }
+        ]
+      }
+    ]
   },
   "location": {
     "title": "Nuestra Ubicación",

@@ -19,7 +19,7 @@ const CTA = () => {
   return (
     <Box py={20} bg="brand.600" color="white">
       <Container maxW="4xl" textAlign="center">
-        <VStack spacing={8}>
+        <VStack gap={8}>
           <Heading
             fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
             fontWeight="bold"

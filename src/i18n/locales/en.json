@@ -5,40 +5,84 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Elevate Your Business with Advanced Data Analytics and AI Solutions",
-    "subtitle": "Transforming growing businesses with Cutting-Edge Technology and Exceptional User Experience",
-    "cta": "Get Started Today"
+    "cta": "Get Started Today",
+    "slides": [
+      {
+        "title": "Elevate Your Business with Advanced Data Analytics and AI Solutions",
+        "subtitle": "Transforming growing businesses with Cutting-Edge Technology and Exceptional User Experience"
+      },
+      {
+        "title": "Streamline Your Contracts with AI-Powered Contract Lifecycle Management",
+        "subtitle": "Automate contract creation, negotiation, and compliance with intelligent AI solutions"
+      }
+    ]
   },
   "experience": {
     "title": "OUR EXPERIENCE"
   },
   "services": {
-    "title": "Our services",
-    "description": "At Papalote Technologies, we empower small and medium enterprises to soar to new heights with the same advanced data analytics and AI technologies used by leading corporations. Our comprehensive suite of services is designed to transform your business operations and drive sustainable growth.",
-    "analytics": {
-      "title": "Advanced analytics & AI",
-      "description": "We've been pioneering Machine Learning & AI long before it was a buzzword. Our expertise spans the entire spectrum from predictive analytics to deep learning, ensuring your business stays ahead of the curve with intelligent, data-driven insights."
-    },
-    "architecture": {
-      "title": "Systems Architecture",
-      "description": "Our Collaborative Enterprise Architecture seamlessly integrates Business, IT, and Data strategies. We design robust, scalable systems that align with your business objectives and support long-term growth."
-    },
-    "cloud": {
-      "title": "Cloud migration",
-      "description": "A comprehensive and proven cloud migration program that minimizes risk while maximizing the benefits of cloud adoption. We ensure smooth transitions with minimal downtime and optimal cost efficiency."
-    },
-    "consulting": {
-      "title": "Technology consulting",
-      "description": "We blend human-centered design with cutting-edge engineering to create solutions that not only meet technical requirements but also provide exceptional user experiences and drive business value."
-    },
-    "database": {
-      "title": "Database evaluation & migration",
-      "description": "We assist companies in evaluating and selecting the most suitable database technologies for their specific needs, followed by seamless migration strategies that ensure data integrity and improved performance."
-    },
-    "managed": {
-      "title": "Managed Services",
-      "description": "Managing cloud deployments can be an enormous challenge. Our managed services ensure your infrastructure runs smoothly, allowing you to focus on your core business while we handle the technical complexities."
-    }
+    "offerings": [
+      {
+        "title": "Our services",
+        "description": "At Papalote Technologies, we empower small and medium enterprises to soar to new heights with the same advanced data analytics and AI technologies used by leading corporations. Our comprehensive suite of services is designed to transform your business operations and drive sustainable growth.",
+        "items": [
+          {
+            "title": "Advanced analytics & AI",
+            "description": "We've been pioneering Machine Learning & AI long before it was a buzzword. Our expertise spans the entire spectrum from predictive analytics to deep learning, ensuring your business stays ahead of the curve with intelligent, data-driven insights."
+          },
+          {
+            "title": "Systems Architecture",
+            "description": "Our Collaborative Enterprise Architecture seamlessly integrates Business, IT, and Data strategies. We design robust, scalable systems that align with your business objectives and support long-term growth."
+          },
+          {
+            "title": "Cloud migration",
+            "description": "A comprehensive and proven cloud migration program that minimizes risk while maximizing the benefits of cloud adoption. We ensure smooth transitions with minimal downtime and optimal cost efficiency."
+          },
+          {
+            "title": "Technology consulting",
+            "description": "We blend human-centered design with cutting-edge engineering to create solutions that not only meet technical requirements but also provide exceptional user experiences and drive business value."
+          },
+          {
+            "title": "Database evaluation & migration",
+            "description": "We assist companies in evaluating and selecting the most suitable database technologies for their specific needs, followed by seamless migration strategies that ensure data integrity and improved performance."
+          },
+          {
+            "title": "Managed Services",
+            "description": "Managing cloud deployments can be an enormous challenge. Our managed services ensure your infrastructure runs smoothly, allowing you to focus on your core business while we handle the technical complexities."
+          }
+        ]
+      },
+      {
+        "title": "Contract Lifecycle Management Services",
+        "description": "Revolutionize how your organization manages contracts with our AI-powered Contract Lifecycle Management solutions. From creation to renewal, we streamline every phase of your contract processes.",
+        "items": [
+          {
+            "title": "CLM Implementation",
+            "description": "Deploy your CLM platform with confidence. From configuration to go-live, we ensure a seamless rollout that drives user adoption from day one."
+          },
+          {
+            "title": "CLM Assessment",
+            "description": "Accelerate your CLM journey with a tailored readiness assessment. Optimize templates, clause libraries, and workflows to reduce risk and fast-track ROI."
+          },
+          {
+            "title": "Legal Consulting",
+            "description": "Bridge the gap between legal strategy and technology. Our consultants align contract processes with compliance requirements and business objectives."
+          },
+          {
+            "title": "Managed Services",
+            "description": "Keep your CLM running at peak performance. We handle system maintenance, updates, and support so your team can focus on strategic priorities."
+          },
+          {
+            "title": "Data Migration & Extraction",
+            "description": "Whether you have 100 or 100,000 contracts, our AI-powered approach combined with expert review ensures accurate, efficient migration every time."
+          },
+          {
+            "title": "Integration Services",
+            "description": "Connect your CLM to ERP, CRM, and core business systems. Ensure contract data flows seamlessly across your entire organization."
+          }
+        ]
+      }
+    ]
   },
   "location": {
     "title": "Our Location",

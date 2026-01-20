@@ -3,23 +3,20 @@ import {
   Flex,
   Image,
   Link,
-  useDisclosure,
   IconButton,
   Drawer,
-  DrawerBody,
-  DrawerHeader,
-  DrawerOverlay,
-  DrawerContent,
-  DrawerCloseButton,
   VStack,
   HStack,
+  Portal,
+  CloseButton,
 } from '@chakra-ui/react'
-import { HamburgerIcon } from '@chakra-ui/icons'
+import { LuMenu } from 'react-icons/lu'
 import { useTranslation } from 'react-i18next'
+import { useState } from 'react'
 import LanguageToggle from '../common/LanguageToggle'
 
 const Navbar = () => {
-  const { isOpen, onOpen, onClose } = useDisclosure()
+  const [open, setOpen] = useState(false)
   const { t } = useTranslation()
 
   return (
@@ -49,7 +46,7 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <HStack spacing={6} display={{ base: 'none', md: 'flex' }}>
+        <HStack gap={6} display={{ base: 'none', md: 'flex' }}>
           <Flex gap={6}>
             <Link
               href="#services"
@@ -80,38 +77,47 @@ const Navbar = () => {
         </HStack>
 
         {/* Mobile Navigation */}
-        <HStack spacing={3} display={{ base: 'flex', md: 'none' }}>
+        <HStack gap={3} display={{ base: 'flex', md: 'none' }}>
           <LanguageToggle />
           <IconButton
             aria-label="Open menu"
-            icon={<HamburgerIcon />}
             variant="ghost"
             color="white"
-            onClick={onOpen}
-          />
+            onClick={() => setOpen(true)}
+          >
+            <LuMenu />
+          </IconButton>
         </HStack>
 
         {/* Mobile Drawer */}
-        <Drawer isOpen={isOpen} placement="right" onClose={onClose}>
-          <DrawerOverlay />
-          <DrawerContent>
-            <DrawerCloseButton />
-            <DrawerHeader>{t('nav.services')}</DrawerHeader>
-            <DrawerBody>
-              <VStack spacing={4} align="start">
-                <Link href="#services" onClick={onClose}>
-                  {t('nav.services')}
-                </Link>
-                <Link href="#experience" onClick={onClose}>
-                  {t('nav.experience')}
-                </Link>
-                <Link href="#contact" onClick={onClose}>
-                  {t('nav.contact')}
-                </Link>
-              </VStack>
-            </DrawerBody>
-          </DrawerContent>
-        </Drawer>
+        <Drawer.Root open={open} onOpenChange={(e) => setOpen(e.open)} placement="end">
+          <Portal>
+            <Drawer.Backdrop />
+            <Drawer.Positioner>
+              <Drawer.Content>
+                <Drawer.Header>
+                  <Drawer.Title>{t('nav.services')}</Drawer.Title>
+                </Drawer.Header>
+                <Drawer.Body>
+                  <VStack gap={4} align="start">
+                    <Link href="#services" onClick={() => setOpen(false)}>
+                      {t('nav.services')}
+                    </Link>
+                    <Link href="#experience" onClick={() => setOpen(false)}>
+                      {t('nav.experience')}
+                    </Link>
+                    <Link href="#contact" onClick={() => setOpen(false)}>
+                      {t('nav.contact')}
+                    </Link>
+                  </VStack>
+                </Drawer.Body>
+                <Drawer.CloseTrigger asChild>
+                  <CloseButton size="sm" />
+                </Drawer.CloseTrigger>
+              </Drawer.Content>
+            </Drawer.Positioner>
+          </Portal>
+        </Drawer.Root>
       </Flex>
     </Box>
   )

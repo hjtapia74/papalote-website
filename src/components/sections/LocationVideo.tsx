@@ -13,8 +13,8 @@ const LocationVideo = () => {
   return (
     <Box py={20} bg="gray.50">
       <Container maxW="6xl">
-        <VStack spacing={12}>
-          <VStack spacing={6} textAlign="center">
+        <VStack gap={12}>
+          <VStack gap={6} textAlign="center">
             <Heading
               fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
               color="gray.800"
@@ -65,7 +65,7 @@ const LocationVideo = () => {
                   w="100%"
                   h="100%"
                 >
-                  <VStack spacing={4}>
+                  <VStack gap={4}>
                     <Text fontSize="2xl">🏔️ {t('location.city')}</Text>
                     <Text fontSize="lg" opacity={0.9}>
                       {t('location.videoPlaceholder')}
@@ -77,7 +77,7 @@ const LocationVideo = () => {
           </Box>
 
           {/* Location Info */}
-          <VStack spacing={4} textAlign="center">
+          <VStack gap={4} textAlign="center">
             <Text fontSize="lg" color="gray.700" fontWeight="medium">
               {t('location.city')}
             </Text>

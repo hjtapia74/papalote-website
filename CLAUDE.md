@@ -10,9 +10,9 @@ This is the **Papalote Technologies** marketing website, rebuilt as a modern Rea
 
 - **React 19** with TypeScript
 - **Vite 7** for development and builds
-- **Chakra UI v2** for component library and styling
+- **Chakra UI v3** for component library and styling
 - **i18next** for internationalization (English/Spanish)
-- **Framer Motion** for animations
+- **react-icons** for icons (Lucide icons via `react-icons/lu`)
 
 ## Development Commands
 
@@ -28,14 +28,15 @@ npm run preview  # Preview production build
 ```
 src/
 ├── App.tsx              # Main app layout (single-page structure)
-├── main.tsx             # Entry point with ChakraProvider
-├── theme/index.ts       # Custom Chakra theme (colors, fonts)
+├── main.tsx             # Entry point with Provider
+├── theme/index.ts       # Custom Chakra system (createSystem)
 ├── i18n/
 │   ├── index.ts         # i18next configuration
 │   └── locales/
 │       ├── en.json      # English translations
 │       └── es.json      # Spanish translations
 └── components/
+    ├── ui/              # Chakra UI v3 snippets (provider, drawer, menu, etc.)
     ├── layout/
     │   └── Navbar.tsx   # Navigation with language toggle
     ├── common/
@@ -62,11 +63,19 @@ public/assets/
 - Language detection: localStorage → browser → fallback to English
 - Add new translations to both `en.json` and `es.json`
 
-### Styling
+### Styling (Chakra UI v3)
 - Use Chakra UI components exclusively
-- Custom theme in `src/theme/index.ts` with brand colors
+- Custom system in `src/theme/index.ts` using `createSystem()`
 - Fonts: Montserrat (headings), Source Sans Pro (body)
 - Responsive props use Chakra's breakpoint syntax: `{{ base: 'sm', md: 'lg' }}`
+- Use `gap` instead of `spacing` on Stack components
+- Use `colorPalette` instead of `colorScheme` on buttons
+
+### Chakra UI v3 Component Patterns
+- Compound components: `Card.Root`, `Card.Body`, `Menu.Root`, `Menu.Item`, etc.
+- Drawer/Menu use Portal for positioning: `<Portal><Menu.Positioner>...</Menu.Positioner></Portal>`
+- Icons are children, not props: `<Button><LuMenu /></Button>` instead of `icon={<Icon />}`
+- UI snippets in `src/components/ui/` provide pre-configured components
 
 ### Component Pattern
 - Section components are in `src/components/sections/`
@@ -79,9 +88,11 @@ public/assets/
 - **Responsive**: Mobile-first design with image fallback for video
 - **Single Page**: Smooth scroll navigation between sections
 - **Video Hero**: WebM with MP4 fallback, static image on mobile
+- **Carousel Ready**: Chakra UI v3 includes native Carousel component
 
 ## Notes
 
 - This is a React rebuild of the original Webflow site (in parent directory)
 - No routing library needed (single-page site)
 - Contact form is display-only (no backend integration yet)
+- Chakra UI MCP server is configured for this project
