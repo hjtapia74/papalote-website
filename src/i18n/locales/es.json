@@ -2,6 +2,7 @@
   "nav": {
     "services": "Servicios",
     "experience": "Experiencia",
+    "blog": "Blog",
     "contact": "Contacto"
   },
   "hero": {
@@ -106,6 +107,13 @@
     "followUs": "Síguenos",
     "description1": "Nos especializamos en transformar empresas en crecimiento con análisis de datos avanzados, soluciones de IA y tecnología de vanguardia. Nuestro equipo aporta capacidades de nivel empresarial a pequeñas y medianas empresas, ayudándolas a competir y prosperar en el mercado actual impulsado por datos.",
     "description2": "Ubicados en el vibrante ecosistema tecnológico de Seattle, servimos a clientes en todo el Noroeste del Pacífico y más allá, entregando soluciones innovadoras que impulsan valor comercial real."
+  },
+  "blog": {
+    "title": "Últimas Publicaciones",
+    "subtitle": "Reflexiones sobre análisis de datos, IA y tecnología de nuestro equipo.",
+    "readMore": "Leer Más",
+    "viewAll": "Ver Todas las Publicaciones en Medium",
+    "errorMessage": "No se pudieron cargar las publicaciones del blog en este momento."
   },
   "language": {
     "toggle": "Idioma",

@@ -65,6 +65,14 @@ const Navbar = () => {
               {t('nav.experience')}
             </Link>
             <Link
+              href="#blog"
+              color="white"
+              _hover={{ color: 'brand.300' }}
+              fontWeight="medium"
+            >
+              {t('nav.blog')}
+            </Link>
+            <Link
               href="#contact"
               color="white"
               _hover={{ color: 'brand.300' }}
@@ -105,6 +113,9 @@ const Navbar = () => {
                     </Link>
                     <Link href="#experience" onClick={() => setOpen(false)}>
                       {t('nav.experience')}
+                    </Link>
+                    <Link href="#blog" onClick={() => setOpen(false)}>
+                      {t('nav.blog')}
                     </Link>
                     <Link href="#contact" onClick={() => setOpen(false)}>
                       {t('nav.contact')}

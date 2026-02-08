@@ -5,6 +5,7 @@ import Experience from './components/sections/Experience'
 import Services from './components/sections/Services'
 import LocationVideo from './components/sections/LocationVideo'
 import CTA from './components/sections/CTA'
+import Blog from './components/sections/Blog'
 import Contact from './components/sections/Contact'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Services />
       <LocationVideo />
       <CTA />
+      <Blog />
       <Contact />
     </Box>
   )

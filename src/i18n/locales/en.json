@@ -2,6 +2,7 @@
   "nav": {
     "services": "Services",
     "experience": "Experience",
+    "blog": "Blog",
     "contact": "Contact"
   },
   "hero": {
@@ -106,6 +107,13 @@
     "followUs": "Follow Us",
     "description1": "We specialize in transforming growing businesses with advanced data analytics, AI solutions, and cutting-edge technology. Our team brings enterprise-level capabilities to small and medium enterprises, helping them compete and thrive in today's data-driven marketplace.",
     "description2": "Based in Seattle's vibrant tech ecosystem, we serve clients across the Pacific Northwest and beyond, delivering innovative solutions that drive real business value."
+  },
+  "blog": {
+    "title": "Latest Insights",
+    "subtitle": "Thoughts on data analytics, AI, and technology from our team.",
+    "readMore": "Read More",
+    "viewAll": "View All Posts on Medium",
+    "errorMessage": "Unable to load blog posts at this time."
   },
   "language": {
     "toggle": "Language",
