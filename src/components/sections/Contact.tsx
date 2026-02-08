@@ -15,7 +15,7 @@ import { useTranslation } from 'react-i18next'
 const Contact = () => {
   const { t } = useTranslation()
   return (
-    <Box id="contact" py={20} bg="gray.800" color="white">
+    <Box as="footer" id="contact" py={20} bg="gray.800" color="white">
       <Container maxW="6xl">
         <SimpleGrid columns={{ base: 1, lg: 2 }} gap={16}>
           {/* Contact Information */}
